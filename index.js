@@ -9,7 +9,7 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true })); //for parse the req.body data for post request
-app.use(methodOverride("_method"));
+app.use(methodOverride("_method"))
 
 main()
   .then(() => {
