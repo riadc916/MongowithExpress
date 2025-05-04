@@ -1,0 +1,36 @@
+body{
+    margin-left: 20px;
+    background-color: rgb(190, 187, 5);
+    text-align: center; 
+}
+.chat{
+    background-color: rgb(30, 138, 233);
+    padding: 20px;
+    border-radius: 36px;
+    display: inline-block;  
+}
+.msg{
+    background-color: wheat;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+.btn{
+    padding: 15px;
+    border-radius: 36px;
+    background-color: wheat;
+}
+.del{
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: red;
+    color: whitesmoke;
+}
+.edit{
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: rgb(8, 214, 8);
+    color: whitesmoke;
+}
